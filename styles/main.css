@@ -1,0 +1,230 @@
+/** COLORS */
+/** FONTS */
+/** GLOBAL STYLES */
+* {
+  font-family: "Exo 2", sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+section {
+  position: relative; }
+
+.section-padding {
+  padding: 120px 25px; }
+
+.hr-line {
+  border: 0;
+  height: 1px;
+  width: 600px;
+  max-width: 250px;
+  background: #333;
+  background-image: -webkit-linear-gradient(right, #333, black, #333);
+  background-image: -moz-linear-gradient(right, #333, black, #333);
+  background-image: -ms-linear-gradient(right, #333, black, #333);
+  background-image: -o-linear-gradient(right, #333, black, #333);
+  margin-bottom: 50px; }
+
+.hr-line-photo {
+  border: 0;
+  height: 1px;
+  width: 600px;
+  max-width: 250px;
+  background: #333;
+  background-image: -webkit-linear-gradient(right, #FFFFFB, white, #FFFFFB);
+  background-image: -moz-linear-gradient(right, #FFFFFB, white, #FFFFFB);
+  background-image: -ms-linear-gradient(right, #FFFFFB, white, #FFFFFB);
+  background-image: -o-linear-gradient(right, #FFFFFB, white, #FFFFFB); 
+  margin-top: 7px; margin-bottom: 7px;}
+
+.hr-line-black {
+  border: 0;
+  height: 1px;
+  width: 600px;
+  max-width: 250px;
+  margin-bottom: 50px;
+  background: #333;
+  background-image: -webkit-linear-gradient(right, #FFFFFB, white, #FFFFFB);
+  background-image: -moz-linear-gradient(right, #FFFFFB, white, #FFFFFB);
+  background-image: -ms-linear-gradient(right, #FFFFFB, white, #FFFFFB);
+  background-image: -o-linear-gradient(right, #FFFFFB, white, #FFFFFB); }
+
+/** FONT STYLES */
+.title-font {
+  font-family: 'Exo 2', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  word-spacing: 3px; }
+
+.main-font {
+  font-family: "Exo 2", sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px; }
+
+/** HEADER */
+header {
+  width: 100%;
+  height: 950px;
+  background: center url("../assets/img/header.jpg") no-repeat fixed; }
+  header h1 {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 76px !important;
+    line-height: 60px; }
+  header span {
+    font-size: 32px;
+    font-family: "Orbitron", sans-serif; }
+  header nav {
+    width: auto;
+    background-color: #034741;
+    height: 53px; }
+    header nav button i {
+      color: white; }
+  header .nav-list a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-right: 20px;
+    font-family: "Exo 2", sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: #034741; }
+    header .nav-list a:hover {
+      background-color: #05665D;
+      color: gold; }
+
+/** SECTION ABOUT */
+
+  .about {
+  width: 100%;
+  height: auto;
+  font-weight: 700;
+  background-color: #046059;
+  color: white; }
+  .about p {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px; }
+
+  /** PHOTO STYLES  */}
+  .about .col-md-3 {
+    padding: 0; }
+  .about .col-md-9 {
+    padding: 0; }
+  .about p {
+    max-width: 700px;
+    text-indent: 60px; }
+
+  .about .cv-container {
+    margin-top: 50px; }
+  .about .cv-container a {
+      color: #fff;
+      font-size: 22px;
+      padding: 2px 8px 3px 8px;
+      border: 1px solid #fff;
+      border-radius: 10px;
+      background-color: #046059; }
+  .about .cv-container a:hover {
+      color: gold;
+      background-color: #046059;
+      border: 1px solid gold }
+  .about .cv-container a:hover i {
+      color: gold; }
+
+.photo {
+  max-width: 180px !important;
+  height: auto;
+  margin: 15px 0; }
+
+.logo-img {width: 55px; height: 30px; }
+
+/** SECTION TECHNOLOGY */
+
+.technology {
+  width: 100%;
+  height: auto;
+  padding: 40px 0; }
+  .technology .icons-top {
+    padding: 40px; }
+    .technology .icons-top h1 {
+      font-family: 'Exo 2', sans-serif;
+      padding-bottom: 40px; }
+    .technology .icons-top li {
+      padding: 10px;
+      margin: 5px; }
+      .technology .icons-top li:hover {
+        background-color: #F0F0F0;
+        border-radius: 25px;
+        cursor: pointer; }
+  .technology .icons-bottom {
+    padding: 40px; }
+    .technology .icons-bottom h1 {
+      font-family: 'Exo 2', sans-serif;
+      padding-bottom: 40px; }
+    .technology .icons-bottom li {
+      padding: 10px 10px 20px 10px;
+      filter: grayscale(100%); }
+
+/** SECTION PORTFOLIO */
+.portfolio {
+  width: 100%;
+  height: auto;
+  padding: 60px 0;
+  background-color: #046059;
+  color: white; }
+  .portfolio h1 {
+    padding-top: 40px; }
+  .portfolio .hr-line-black {
+    margin-bottom: 50px; }
+  .portfolio .portfolio-card {
+    padding-bottom: 30px; }
+    .portfolio .portfolio-card h3 {
+      font-family: "Exo 2", sans-serif;
+      padding: 10px; }
+    .portfolio .portfolio-card h4 a {
+      text-decoration: none;
+      color: black; }
+      .portfolio .portfolio-card h4 a:hover {
+        color: gold; }
+
+/** SECTION CONTACT */
+.contact {
+  padding: 80px 25px; }
+  .contact h1:nth-of-type(2) {
+    padding-bottom: 50px; }
+  .contact .social-container {
+    width: 100%;
+    margin-top: 30px; }
+    .contact .social-container a .fa-envelope {
+      color: red; }
+    .contact .social-container a .fa-github {
+      color: #8C2093; }
+    .contact .social-container a i {
+      margin: 10px 15px; }
+      .contact .social-container a i:hover {
+        color: gold; }
+    .contact .social-container h4 a {
+      color: black; }
+      .contact .social-container h4 a:hover {
+        color: #046059; }
+  .contact textarea {
+    resize: vertical; }
+
+/** FOOTER STYLES */
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #046059 !important;
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+  color: white; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+    footer a:hover {
+      color: #DB9A00 !important; }
+
+/*# sourceMappingURL=main.css.map */

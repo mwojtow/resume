@@ -1,0 +1,244 @@
+/** COLORS **/
+
+$portfolioColor: #137BC4
+$footerColor: #2B2B2B
+
+	
+/** FONTS **/
+$section-headFont: 'Kanit', sans-serif
+$section-mainFont: 'Cuprum', sans-serif
+$section-secondMainFont: 'Hind', sans-serif
+
+/** GLOBAL STYLES **/
+*
+	font-family: $section-secondMainFont
+body
+	margin: 0
+	padding: 0
+	border: 0
+	
+section
+	position: relative
+
+.section-padding
+	padding: 120px 25px
+	
+.hr-line
+	border: 0
+	height: 1px
+	width: 600px
+	max-width: 250px
+	background: #333
+	background-image: -webkit-linear-gradient(right, #333, black, #333)
+	background-image: -moz-linear-gradient(right, #333, black, #333)
+	background-image: -ms-linear-gradient(right, #333, black, #333)
+	background-image: -o-linear-gradient(right, #333, black, #333)
+	margin-bottom: 50px
+.hr-line-black
+	border: 0
+	height: 1px
+	width: 600px
+	max-width: 250px
+	margin-bottom: 50px
+	background: #333
+	background-image: -webkit-linear-gradient(right, #FFFFFB, white, #FFFFFB)
+	background-image: -moz-linear-gradient(right, #FFFFFB, white, #FFFFFB)
+	background-image: -ms-linear-gradient(right, #FFFFFB, white, #FFFFFB)
+	background-image: -o-linear-gradient(right, #FFFFFB, white, #FFFFFB)
+
+
+/** FONT STYLES **/
+.title-font
+	font-family: $section-headFont
+	text-transform: uppercase
+	letter-spacing: 3px
+	word-spacing: 3px
+	
+
+.main-font
+	font-family: $section-secondMainFont
+	font-size: 22px
+	letter-spacing: 1px
+
+
+/** HEADER **/
+header
+	width: 100%
+	height: 950px
+	background: center url("../assets/img/header.jpg") no-repeat fixed
+	h1
+		font-family: $section-mainFont!important
+		font-size: 76px!important
+		line-height: 60px
+	span
+		font-size: 34px
+		font-family: $section-mainFont
+	nav
+		width: auto
+		background-color: #1D587F
+		height: 53px
+		button
+			i
+				color: white
+	.nav-list
+		a
+			color: white
+			text-decoration: none
+			padding-left: 10px!important
+			padding-right: 10px!important
+			margin-right: 27px
+			font-family: $section-mainFont
+			letter-spacing: 2px
+			font-size: 18px
+			font-weight: 900
+			background-color: #1D587F
+			&:hover
+				background-color: #246E9E
+				
+
+/** SECTION ABOUT **/
+.about
+	width: 100%
+	height: auto
+	font-weight: 700
+	.col-md-3
+		padding: 0
+	.col-md-9
+		padding: 0
+	p
+		max-width: 700px
+		text-indent: 60px
+	.cv-container
+		margin-top: 50px
+		a
+			color: $portfolioColor
+			font-size: 22px
+			padding: 5px 8px 0 8px
+			border: 1px solid $portfolioColor
+			border-radius: 10px
+			background-color: white
+			&:hover
+				color: white
+				background-color: $portfolioColor
+				i
+					color: gold
+	
+	
+	/** PHOTO STYLES **/
+.photo
+	max-width: 180px!important
+	height: auto
+	margin: 15px 0
+
+	
+/** SECTION SKILLS **/
+
+.skills
+	width: 100%
+	height: auto
+	background-color: #252A2B
+	color: white
+	p
+		max-width: 1000px
+		margin: 0 auto
+		padding: 0 15px
+
+	
+.technology
+	width: 100%
+	height: auto
+	padding: 40px 0
+	.icons-top
+		padding: 40px
+		h1
+			font-family: $section-headFont
+			padding-bottom: 40px
+		li
+			padding: 10px
+			margin: 5px
+			&:hover
+				background-color: #F0F0F0
+				border-radius: 25px
+				cursor: pointer
+			
+	.icons-bottom
+		padding: 40px
+		h1
+			font-family: $section-headFont
+			padding-bottom: 40px
+		li
+			padding: 10px 10px 20px 10px
+			filter: grayscale(100%)
+			
+
+/** SECTION PORTFOLIO **/
+
+.portfolio
+	width: 100%
+	height: auto
+	padding: 60px 0
+	background-color: #248CCF
+	color: white
+	h1
+		padding-top: 40px
+	.hr-line-black
+		margin-bottom: 50px
+	.portfolio-card
+		padding-bottom: 30px
+		h3
+			font-family: $section-mainFont
+			padding: 10px
+		h4
+			a
+				text-decoration: none
+				color: black
+				&:hover
+					color: white
+			
+/** SECTION CONTACT **/
+.contact
+	padding: 80px 25px
+	h1
+		&:nth-of-type(2)
+			padding-bottom: 50px
+	.social-container
+		margin-top: 30px
+		a
+			.fa-github
+				color: black
+			i
+				margin: 10px 15px
+				&:hover
+					color: #248CCF
+		h4
+			a
+				color: black
+				&:hover
+					color: #248CCF
+	textarea
+		resize: vertical
+
+		
+/** FOOTER STYLES **/
+
+footer
+	width: 100%
+	height: auto
+	background-color: $footerColor
+	font-family: $section-secondMainFont
+	font-size: 18px
+	color: white
+	a
+		text-decoration: none
+		color: white
+		&:hover
+			color: #DB9A00!important
+		
+		
+			
+
+			
+			
+
+
+	
