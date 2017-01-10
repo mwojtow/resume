@@ -56,6 +56,15 @@
     font-size: 18px !important;
     text-indent: 0 !important; }
 
+  .col-md-8 {
+    padding-right: : 0;
+    padding-left: : 0;
+  }
+
+  .about p {
+    padding: 0 0;
+  }
+
   .technology img {
     width: 70px; }
   .technology .icons-top {
